@@ -1,0 +1,50 @@
+.background_content {
+  flex: 1;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  background-size: auto 100%;
+  background-repeat: no-repeat;
+  background-position: 100% 0;
+
+  @media all and (max-width: 1300px) {
+    overflow-y: auto;
+    overflow-x: hidden;
+  }
+}
+
+.thumbImageOne {
+  background: none;
+}
+
+.thumbImageTwo {
+  background-image: url('../assets/images/backgrounds/background_flowers.png');
+}
+
+.thumbImageThree {
+  background-image: url('../assets/images/backgrounds/background_bird_one.png');
+}
+
+.thumbImageFour {
+  background-image: url('../assets/images/backgrounds/background_bird_two.png');
+}
+
+.thumbImageFive {
+  background-image: url('../assets/images/backgrounds/background_palm.png');
+}
+
+.thumbImageSix {
+  background-image: url('../assets/images/backgrounds/background_spruce.png');
+}
+
+.thumbImageSeven {
+  background-image: url('../assets/images/backgrounds/background_splash.png');
+}
+
+.thumbImageEight {
+  background-image: url('../assets/images/backgrounds/background_cloud.png');
+}
+
+.thumbImageNine {
+  background-image: url('../assets/images/backgrounds/background_balloon.png');
+}
